@@ -14,7 +14,7 @@ use App\Models\ProductInventory;
  *
  * @category CartController
  * @package  CartController
- * @author   Sugiarto <sugiarto.dlingo@gmail.com>
+ * @author   Aditya Putra
  * @license  https://opensource.org/licenses/MIT MIT License
  * @link     http://localhost/
  */

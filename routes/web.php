@@ -8,7 +8,7 @@
  *
  * @category WebRoutes
  * @package  WebRoutes
- * @author   Sugiarto <sugiarto.dlingo@gmail.com>
+ * @author   Aditya Putra
  * @license  https://opensource.org/licenses/MIT MIT License
  * @link     http://localhost/
  */

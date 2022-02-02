@@ -14,7 +14,7 @@ use Illuminate\Routing\Controller as BaseController;
  *
  * @category Controller
  * @package  Controller
- * @author   Sugiarto <sugiarto.dlingo@gmail.com>
+ * @author   Aditya Putra
  * @license  https://opensource.org/licenses/MIT MIT License
  * @link     http://localhost/
  */
