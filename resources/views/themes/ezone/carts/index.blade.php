@@ -2,7 +2,11 @@
 
 @section('content')
 	<!-- header end -->
-	<div class="breadcrumb-area pt-205 breadcrumb-padding pb-210" style="background-image: url({{ asset('themes/ezone/assets/img/bg/breadcrumb.jpg') }})">
+	<div class="breadcrumb-area pt-205 breadcrumb-padding pb-210" style="
+		background-image: url({{ asset('themes/ezone/assets/img/bg/DIT01663.jpeg') }});
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;">
 		<div class="container">
 			<div class="breadcrumb-content text-center">
 				<h2>cart page</h2>
