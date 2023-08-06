@@ -3,11 +3,16 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>{{ config('app.name', 'Laravel') }}</title>
+        <title>{{ config('app.name', 'iLookdaily') }}</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
         <link rel="shortcut icon" type="image/x-icon" href="{{ asset('themes/ezone/assets/img/favicon.png') }}">
+
+        {{-- Font --}}
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 		
 		<!-- all css here -->
         <link rel="stylesheet" href="{{ asset('themes/ezone/assets/css/bootstrap.min.css') }}">
@@ -22,6 +27,7 @@
         <link rel="stylesheet" href="{{ asset('themes/ezone/assets/css/bundle.css') }}">
         <link rel="stylesheet" href="{{ asset('themes/ezone/assets/css/style.css') }}">
         <link rel="stylesheet" href="{{ asset('themes/ezone/assets/css/responsive.css') }}">
+        <link rel="stylesheet" href="{{ asset('themes/ezone/assets/scss/custom.css') }}">
         <script src="{{ asset('themes/ezone/assets/js/vendor/modernizr-2.8.3.min.js') }}"></script>
 
         <!-- CSRF Token -->
@@ -35,7 +41,7 @@
         
         @yield('content')
        
-        @include('themes.ezone.partials.services')
+        {{-- @include('themes.ezone.partials.services') --}}
         @include('themes.ezone.partials.footer')
         @include('themes.ezone.partials.modals')
 		

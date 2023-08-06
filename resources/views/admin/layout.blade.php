@@ -5,7 +5,13 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content="Sleek Dashboard - Free Bootstrap 4 Admin Dashboard Template and UI Kit. It is very powerful bootstrap admin dashboard, which allows you to build products like admin panels, content management systems and CRMs etc.">
-		<title>Sleek - Admin Dashboard Template</title>
+		<title>iLookdaily - Admin</title>
+
+		
+        {{-- Font --}}
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
 		<!-- GOOGLE FONTS -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Poppins:400,500,600,700|Roboto:400,500" rel="stylesheet" />
@@ -21,6 +27,8 @@
 		<link id="bsdp-css" rel="stylesheet" href="{{ URL::asset('admin/assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css') }}">
 		<!-- FAVICON -->
 		<link href="{{ URL::asset('admin/assets/img/favicon.png') }}" rel="shortcut icon" />
+
+		<link rel="stylesheet" href="{{ asset('themes/ezone/assets/scss/custom.css') }}">
 		<!--
 			HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
 		-->
@@ -40,19 +48,6 @@
 	<div class="mobile-sticky-body-overlay"></div>  
 	<div id="toaster"></div>
 	<div class="wrapper">
-		<!-- Github Link -->
-		<a href="https://github.com/tafcoder/sleek-dashboard" class="github-link">
-		<svg width="70" height="70" viewBox="0 0 250 250" aria-hidden="true">
-			<defs>
-			<linearGradient id="grad1" x1="0%" y1="75%" x2="100%" y2="0%">
-				<stop offset="0%" style="stop-color:#896def;stop-opacity:1" />
-				<stop offset="100%" style="stop-color:#482271;stop-opacity:1" />
-			</linearGradient>
-			</defs>
-			<path d="M 0,0 L115,115 L115,115 L142,142 L250,250 L250,0 Z" fill="url(#grad1)"></path>
-		</svg>
-		<i class="mdi mdi-github-circle"></i>
-		</a>
 		
 		@include('admin.partials.sidebar')
 

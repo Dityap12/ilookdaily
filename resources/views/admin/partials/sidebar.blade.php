@@ -8,7 +8,7 @@
 		<!-- Aplication Brand -->
 		<div class="app-brand">
 			<a href="{{ url('admin/dashboard') }}">
-			<span class="brand-name">LaraShop Dashboard</span>
+				<h1 class="logo-text" style="color: #fff;">iLookdaily</h1>
 			</a>
 		</div>
 		<!-- begin sidebar scrollbar -->
@@ -79,11 +79,11 @@
 					<ul class="collapse {{ ($currentAdminMenu == 'report') ? 'show' : ''}}"  id="report"
 						data-parent="#sidebar-menu">
 						<div class="sub-menu">
-							<li  class="{{ ($currentAdminSubMenu == 'report-revenue') ? 'active' : ''}}" >
+							{{-- <li  class="{{ ($currentAdminSubMenu == 'report-revenue') ? 'active' : ''}}" >
 								<a class="sidenav-item-link" href="{{ url('admin/reports/revenue')}}">
 								<span class="nav-text">Revenue</span>
 								</a>
-							</li>
+							</li> --}}
 							<li  class="{{ ($currentAdminSubMenu == 'report-product') ? 'active' : ''}}" >
 								<a class="sidenav-item-link" href="{{ url('admin/reports/product')}}">
 								<span class="nav-text">Products</span>

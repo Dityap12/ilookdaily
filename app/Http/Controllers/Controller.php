@@ -71,7 +71,7 @@ class Controller extends BaseController
 	 */
 	protected function loadTheme($view, $data = [])
 	{
-		return view('themes/'. env('APP_THEME') .'/'. $view, $data);
+		return view('themes.ezone' .'.'. $view, $data);
 	}
 
 	/**

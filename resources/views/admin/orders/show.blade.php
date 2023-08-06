@@ -6,10 +6,8 @@
 		<div class="d-flex justify-content-between">
 			<h2 class="text-dark font-weight-medium">Order ID #{{ $order->code }}</h2>
 			<div class="btn-group">
-				<button class="btn btn-sm btn-secondary">
+				<button class="btn btn-sm btn-secondary" onclick="window.print()">
 					<i class="mdi mdi-content-save"></i> Save</button>
-				<button class="btn btn-sm btn-secondary">
-					<i class="mdi mdi-printer"></i> Print</button>
 			</div>
 		</div>
 		<div class="row pt-5">

@@ -1,0 +1,27 @@
+$sansita: 'Sansita', sans-serif;
+
+.logo-text {
+    font-family: $sansita;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0;
+}
+
+@media print {
+    .main-header,
+    .left-sidebar.bg-sidebar,
+    .footer,
+    .btn-group,
+    .btn-pill {
+        display: none !important;
+        visibility: visible;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .page-wrapper,
+    .content {
+        padding: 0 !important;
+    }
+}
